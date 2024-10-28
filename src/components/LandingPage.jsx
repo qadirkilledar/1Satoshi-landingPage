@@ -81,40 +81,29 @@ const LandingPage = () => {
   const products = [
     {
       name: "Lamborghini Aventador",
-      price: "₿12.5",
-      sats: "1,250,000,000",
+      sats: "1",
       image: "lambo2.avif",
       rarity: "Legendary",
       stats: { speed: 95, luxury: 98, value: 92 },
     },
-    {
-      name: "Ferrari F8",
-      price: "₿10.8",
-      sats: "1,080,000,000",
-      image: "ferrari.jpg",
-      rarity: "Epic",
-      stats: { speed: 93, luxury: 95, value: 90 },
-    },
+
     {
       name: "MacBook Pro",
-      price: "₿0.89",
-      sats: "89,000,000",
+      sats: "1",
       image: "macbook.jpg",
       rarity: "Rare",
       stats: { performance: 88, design: 92, value: 85 },
     },
     {
       name: "VPS Service",
-      price: "₿0.001",
-      sats: "100,000",
+      sats: "1",
       image: "vps.jpg",
       rarity: "Common",
       stats: { uptime: 99, speed: 90, value: 95 },
     },
     {
       name: "World Tour Package",
-      price: "₿2.5",
-      sats: "250,000,000",
+      sats: "1",
       image: "world.jpg",
       rarity: "Epic",
       stats: { experience: 96, luxury: 94, value: 93 },
@@ -325,9 +314,6 @@ const LandingPage = () => {
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-2">{product.name}</h3>
                   <div className="flex justify-between items-center mb-4">
-                    <span className="text-orange-500 font-bold">
-                      {product.price}
-                    </span>
                     <span className="text-blue-500 font-bold">
                       {product.sats} sats
                     </span>
